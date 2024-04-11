@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form>
+        <div id="login">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+        </div>
+        <div id="gender-button">
+            <p>Sexo:
+                <select>
+                    <option>Homem</option>
+                    <option>Mulher</option>
+                </select>
+            </p>
+        </div>
+        <div id="interesses">
+            <p>Interesses:
+                <input type="checkbox" name="esporte">
+                <Label for="esporte">Esporte</Label>
+                <input type="checkbox" name="tecnologia">
+                <Label for="tecnologia">Tecnologia</Label>
+                <input type="checkbox" name="viagem">
+                <Label for="viagem">Viagem</Label>
+            </p>
+        </div>
+        <label for="comentarios">Comentários:</label><br>
+        <textarea cols="33" rows="4" name="comentarios"></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
